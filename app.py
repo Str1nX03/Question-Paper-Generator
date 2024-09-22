@@ -12,7 +12,7 @@ app = Flask(__name__)
 stripe.api_key = "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"
 
 # Replace with your actual Google API key
-gga.configure(api_key='AIzaSyC5BVYL55poCffhsWB034hQQnVB3X0wf-E')
+gga.configure(api_key='AIzaSyD26Re1PMGq9mL8m3R7u2ZeJURG3a9oXLM')
 
 def read_pdf_lines(file_path):
     pdf_document = fitz.open(file_path)
